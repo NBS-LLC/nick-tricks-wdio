@@ -72,6 +72,7 @@ export const config: Options.Testrunner = {
   //
   // Level of logging verbosity: trace | debug | info | warn | error | silent
   logLevel: "info",
+  outputDir: "results/",
   //
   // Set specific log levels per logger
   // loggers:
