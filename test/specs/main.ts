@@ -1,6 +1,8 @@
-describe("the-internet main page", function () {
+import { home } from "../pages/Home.ts";
+
+describe("the-internet home page", function () {
   it("loads", async function () {
-    await browser.url("/");
-    await expect(browser).toHaveTitle("The Internet");
+    await home.open();
+    await expect(home).toHaveTitle("The Internet");
   });
 });
